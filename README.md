@@ -7,6 +7,7 @@ This project is about building a RAG based chat application using the following 
 
 ## Pre-requisites
 * Install Python 3.11
+  
     Ref. using pyenv
      - Windows: https://github.com/pyenv-win/pyenv-win
      - Mac: https://github.com/pyenv-win/pyenv
