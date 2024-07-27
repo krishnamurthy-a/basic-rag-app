@@ -1,0 +1,11 @@
+langchain==0.1.10
+ibm-watsonx-ai>=0.2.6
+langchain_ibm
+wget
+sentence-transformers
+chromadb==0.3.26
+pydantic==1.10.0
+sqlalchemy==2.0.1
+pypdf
+jupyter
+streamlit

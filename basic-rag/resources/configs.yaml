@@ -1,0 +1,9 @@
+title: "ITR Private Assistant"
+model_params:
+  decoding_method: "greedy"
+  repetition_penalty: 1.05
+  stop_sequences:
+  - "<|user|>"
+  - "<|endoftext|>"
+  min_new_tokens: 1
+  max_new_tokens: 100
