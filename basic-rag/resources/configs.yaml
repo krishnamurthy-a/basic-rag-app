@@ -1,7 +1,7 @@
 title: "ITR Private Assistant"
 platform: openai
-openai_apikey: "***"
-watsonx_apikey: "***"
+openai_apikey: "sk-None-dnupZmMV1PulmOICQSnQT3BlbkFJJ3mFetWDLTcIQtAwo6ba"
+watsonx_apikey: "sk-None-dnupZmMV1PulmOICQSnQT3BlbkFJJ3mFetWDLTcIQtAwo6ba"
 model_params:
   decoding_method: "greedy"
   repetition_penalty: 1.05

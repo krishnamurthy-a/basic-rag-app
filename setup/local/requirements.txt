@@ -9,3 +9,5 @@ sqlalchemy==2.0.1
 pypdf
 jupyter
 streamlit
+openai
+tiktoken

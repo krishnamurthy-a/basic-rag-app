@@ -15,7 +15,7 @@ from langchain.llms import OpenAI
 from config import load_configs
 
 def get_embeddings() -> WatsonxEmbeddings :
-    watsonx_apikey = 
+    # watsonx_apikey = 
     embeddings = WatsonxEmbeddings(
         model_id=EmbeddingTypes.IBM_SLATE_30M_ENG.value,
         url=os.environ.get(
