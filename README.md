@@ -39,7 +39,7 @@ This project is about building a RAG based chat application using the following 
 
 
 ## How to run this application.
-1. Download and load the documents to the local vector store. Refer to the details in section - `Steps to start the Jupyter notebook to load documents to vector store`
+1. Download the documents, generate embedding and persist it to the local vector store. Refer to the details in section - `Steps to start the Jupyter notebook to load documents to vector store`
 2. Start the chat application to chat with the LLM. Refer to the detail in section - `Steps to start the streamlit web application`
 
 
