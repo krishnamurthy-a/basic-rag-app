@@ -7,6 +7,7 @@ This project is about building a RAG based chat application using the following 
 
 ## Pre-requisites
 * Install Python 3.11
+  
     Ref. using pyenv
      - Windows: https://github.com/pyenv-win/pyenv-win
      - Mac: https://github.com/pyenv-win/pyenv
@@ -25,8 +26,6 @@ This project is about building a RAG based chat application using the following 
 
     pip install "chromadb==0.3.26"
 
-    pip install "chromadb-client"
-
     pip install "pydantic==1.10.0"
 
     pip install "sqlalchemy==2.0.1"
@@ -43,7 +42,7 @@ This project is about building a RAG based chat application using the following 
 
 
 ## How to run this application.
-1. Download and load the documents to the local vector store. Refer to the details in section - `Steps to start the Jupyter notebook to load documents to vector store`
+1. Download the documents, generate embedding and persist it to the local vector store. Refer to the details in section - `Steps to start the Jupyter notebook to load documents to vector store`
 2. Start the chat application to chat with the LLM. Refer to the detail in section - `Steps to start the streamlit web application`
 
 
