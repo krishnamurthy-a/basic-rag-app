@@ -37,6 +37,10 @@ This project is about building a RAG based chat application using the following 
 
     pip install "streamlit"
 
+    pip install "openai"
+
+    pip install "tiktoken"
+
 
 ## How to run this application.
 1. Download and load the documents to the local vector store. Refer to the details in section - `Steps to start the Jupyter notebook to load documents to vector store`
@@ -59,6 +63,7 @@ This project is about building a RAG based chat application using the following 
 
 ## Steps to start the streamlit web application
 1. Go to the directory - `[Project Root]/basic-rag` in terminal / command line
-2. Start the streamlit service using the below command.
+2. Update the API key values in `basic-rag/resources/configs.yaml` file
+3. Start the streamlit service using the below command.
 
     `streamlit run basic-rag-app.py`
