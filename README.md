@@ -26,8 +26,6 @@ This project is about building a RAG based chat application using the following 
 
     pip install "chromadb==0.3.26"
 
-    pip install "chromadb-client"
-
     pip install "pydantic==1.10.0"
 
     pip install "sqlalchemy==2.0.1"
