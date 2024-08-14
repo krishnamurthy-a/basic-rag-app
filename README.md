@@ -62,7 +62,10 @@ This project is about building a RAG based chat application using the following 
 
 ## Steps to start the streamlit web application
 1. Go to the directory - `[Project Root]/basic-rag` in terminal / command line
-2. Update the API key values in `basic-rag/resources/configs.yaml` file
-3. Start the streamlit service using the below command.
+2. Update the value for `platform` configuration in `basic-rag/resources/configs.yaml` file.
+    - Set value as `watsonx` if you will be working with models hosted in watsonx.ai
+    - Set value as `openai` if you will be working with models hosted in openai
+3. Update the API key values pertaining to Watsonx.ai or OpenAI in `basic-rag/resources/configs.yaml` file depending on the platform where the embedding and LLM model is hosted.
+4. Start the streamlit service using the below command.
 
     `streamlit run basic-rag-app.py`

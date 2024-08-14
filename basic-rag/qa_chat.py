@@ -54,7 +54,7 @@ def setup_openai_vector_store(embeddings: OpenAIEmbeddings) -> Chroma:
     # collection = chroma_client.get_or_create_collection(collection_name)
     chromadb_store = Chroma(
         # client=chroma_client,
-        persist_directory="/tmp/vector_data_oai",
+        persist_directory="/tmp/vector_data_openai",
         collection_name=collection_name,
         embedding_function=embeddings,
     )
