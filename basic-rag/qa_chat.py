@@ -84,7 +84,7 @@ def get_llm() -> WatsonxLLM:
         ),
         project_id=os.environ.get(
             "WATSONX_AI_PROJECT_ID",
-            "39308f9d-00ff-402b-9399-5d289deb4788",
+            "NOT_SET",
         ),
         params=parameters,
     )

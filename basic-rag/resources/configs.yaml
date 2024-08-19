@@ -1,5 +1,5 @@
 title: "ITR Private Assistant"
-platform: openai
+platform: watsonx
 openai_apikey: "***"
 watsonx_apikey: "***"
 model_params:

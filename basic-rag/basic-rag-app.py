@@ -35,7 +35,7 @@ def main():
     st.markdown(
         """
         <h1 style='text-align: center; color: #4CAF50; font-size: 50px;'>
-            IT returns Personal Assistant 🌟
+            IT Returns Personal Assistant 🌟
         </h1>
         <h2 style='text-align: center; color: #555;'>
             FY - 2024-2025
