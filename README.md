@@ -71,7 +71,3 @@ This project is about building a RAG based chat application using the following 
 
     `streamlit run basic-rag-app.py`
 
-
-## References:
-1. Reference material of LLM Basics topic covered during GenAI meetup held at Kochi on 27th July, 2024 is available in `presentations/BasicsOfLLM.pptx`
-2. Reference material of Prompt Tuning basics and model parameters tuning covered during GenAI meetup held at Kochi on 27th July, 2024 is available in `presentations/LLM-Prompt-Engg-Parameters-Tuning.pptx`
